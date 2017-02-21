@@ -25,25 +25,25 @@
 
   &__icon {
     color: #111;
+
+    &_behance {
+      width: 17px;
+      height: 12px;
+    }
+
+    &_facebook {
+      width: 8px;
+      height: 15px;
+    }
+
+    &_linkedin {
+      width: 14px;
+      height: 12px;
+    }
+
+    &_pinterest {
+      width: 14px;
+      height: 14px;
+    }
   }
-}
-
-.fa-behance {
-  width: 17px;
-  height: 12px;
-}
-
-.fa-facebook {
-  width: 8px;
-  height: 15px;
-}
-
-.fa-linkedin {
-  width: 14px;
-  height: 12px;
-}
-
-.fa-pinterest {
-  width: 14px;
-  height: 14px;
 }
