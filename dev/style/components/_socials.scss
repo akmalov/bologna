@@ -1,0 +1,49 @@
+.socials {
+  max-width: 260px;
+
+  &__list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    margin-right: 15px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover {
+
+      .socials__icon {
+        color: #000;
+      }
+    }
+  }
+
+  &__icon {
+    color: #111;
+  }
+}
+
+.fa-behance {
+  width: 17px;
+  height: 12px;
+}
+
+.fa-facebook {
+  width: 8px;
+  height: 15px;
+}
+
+.fa-linkedin {
+  width: 14px;
+  height: 12px;
+}
+
+.fa-pinterest {
+  width: 14px;
+  height: 14px;
+}

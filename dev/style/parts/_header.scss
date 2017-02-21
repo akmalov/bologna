@@ -1,0 +1,79 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 220px;
+
+  &__top {
+    min-height: 140px;
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      padding-bottom: 5px;
+    }
+  }
+
+  &__title {
+    font-size: 48px;
+    line-height: 0.9;
+    font-family: "Gilda Display";
+    color: #000;
+    text-transform: uppercase;
+    overflow: hidden;
+  }
+
+  &__desc {
+    font-size: 12px;
+    line-height: 2.2;
+    font-weight: 700;
+    color: #ccc;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-transform: uppercase;
+    overflow: hidden;
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 92.708%;
+    min-height: 80px;
+    margin: 0 auto;
+  }
+
+
+  &__search {
+    position: relative;;
+    width: 15px;
+    height: 15px;
+    margin-right: 4px;
+    cursor: pointer;
+
+    &:hover {
+
+      .fa-search {
+        color: #000;
+      }
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 2px;
+      left: -14px;
+      width: 1px;
+      height: 14px;
+      background: #252525;
+    }
+  }
+}
+
+.fa-search {
+  width: 15px;
+  height: 15px;
+  color: #111;
+}
